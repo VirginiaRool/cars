@@ -10,7 +10,7 @@ const searchImages = async (term) => {
     },
   });
 
-  const responseResults = response.data.results;
+  const responseResults = response.data.photos.results;
   return responseResults;
 };
 
